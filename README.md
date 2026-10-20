@@ -2,6 +2,10 @@
 
 面向國中一年級學生的數位素養互動展覽。觀眾透過 109 年「安全自拍與分享」案例，練習辨認照片中的個人資訊，並在發文前檢查票券細節、位置資訊與觀看對象。
 
+## 線上展覽
+
+[開啟 GitHub Pages 展覽](https://zoeylin122.github.io/myfirstwebsite/)
+
 ## 展覽內容
 
 - 案例現場：小雲分享拿著電影票的自拍後，收到陌生訊息。
@@ -41,4 +45,4 @@ pnpm preview
 
 ## 部署
 
-GitHub Pages 由 .github/workflows/pages.yml 自動部署。正式網址會在首次部署成功後填入。
+GitHub Actions 工作流程位於 .github/workflows/pages.yml，每次推送到 main 都會建置並部署。

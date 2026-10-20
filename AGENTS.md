@@ -16,6 +16,9 @@
 - 開發時先確認現有檔案與設定，再採用與本專案一致的技術和視覺方向。保留語意化 HTML、鍵盤操作、可讀對比、行動裝置體驗及減少動態效果偏好（prefers-reduced-motion）的支援。
 - 對圖片、字型與動畫控制載入量；避免讓動畫妨礙閱讀或回饋表單操作。
 
-## 本次初始化範圍
+## 目前部署狀態
 
-目前只建立專案說明、套件和部署設定，尚未建立網站頁面或應用程式原始碼。開始撰寫網站程式前，等待使用者下一步指示。GitHub Repo 尚未連結；部署成功後再將實際 Pages 網址補入 README.md 並推送。
+- 展覽 MVP 已建置，採 Vite、GSAP 與 ScrollTrigger，並支援響應式版面、鍵盤操作及減少動態效果偏好。
+- GitHub Pages：https://zoeylin122.github.io/myfirstwebsite/
+- Apps Script 回饋表單前端已預留 VITE_APPS_SCRIPT_URL；尚未設定 Web App URL，所以回饋目前不會送出或保存。
+- Apps Script 僅由瀏覽器中的 Apps Script 編輯器操作；不要安裝或使用 Clasp。
